@@ -1,0 +1,237 @@
+/* this is default css */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+text-left{
+    text-align: left;
+}
+.fixed-width{
+    width: 1100px;
+    
+    margin: auto;
+}
+/* Header section */
+.header{
+    background-color: rgb(8, 70, 13);
+}
+.hdleft{
+    float: left;
+    width: 35%;
+}
+.hdleft img{
+    width: 180px;
+    height: auto;
+}
+.hdright{
+    float: right;
+    width: 65%;
+
+}
+.hdright ul{}
+.hdright ul li {
+    display: inline-block;
+    margin-left: -24px;
+}
+.hdright ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 65px;
+    border-right: 1px solid rgb(209, 120, 120);
+    padding: 0 40px;
+    color: white;
+    transition: .5s;
+}
+.hdright ul li a:hover{
+    background-color: rgb(67, 109, 72);
+}
+/* Banner section */
+.banner{
+    background-image: url(./image/bac2.jpeg) ;
+    background-size: cover;
+    padding: 250px;
+    background-repeat: no-repeat;
+}
+.banner h1 {
+    font-size: 40px;
+    margin: auto;
+    background: rgba(0,0,0, .4);
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.banner h1:hover{
+    transform: scale(1.1);
+}
+.banner h2 {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 155, 155, .9);
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.banner h2:hover{
+    transform: scale(1.1);
+}
+/* About section */
+.about h1 {
+    font-size: 50px;
+    color: lightslategrey;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.about{
+    
+}
+.about p {
+    max-width:600px;
+    margin: auto;
+    font-size: 19px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* Service section */
+.service-item {
+    float: left;
+    width: 28.3%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 5%;
+    transition: .5s;
+    font-size: 15px;
+    cursor: pointer;
+}
+.service-item:hover{
+    transform: scale(1.1);
+}
+.service-item h1{
+    margin: 10px 0;
+}
+.service-item p{
+    font-size: 15px;
+}
+.service-item span i{
+     font-size: 40px;
+     color: rgb(4, 75, 156);
+     background-color: rgb(5, 151, 78);
+     padding: 30px;
+     border-radius: 40px 0;
+}
+/* Container css */
+.blog{
+    margin: 60px 0;
+}
+.blog-item{
+    margin:40px 0;
+}
+.blog-content{
+    float: left;
+    width: 70%;
+}
+.blog-menu{
+    float: right;
+    width: 25%;
+}
+.blog-item img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+   transition: .5s;
+    
+    
+}
+.blog-item img:hover{
+    transform: scale(1.1);
+}
+.blog-item p{
+    font-size: 20px;
+}
+
+.blog-menu h2 {
+    margin: 60px;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 40px;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+.blog-menu ul{
+    list-style: none;
+    margin-top: 10px;
+    background: #ddd;
+}
+.blog-menu ul li{
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .5s;
+    
+}
+.blog-menu ul li:hover{
+    background-color:gray;
+}
+/* footer */
+.footer{
+    background-color: rgb(75, 75, 75);
+    padding: 30px;
+}
+.footer-left{
+    float: left;
+    width: 60%;
+}
+.footer-left p{
+    font-size: 20px;
+}
+.footer-right{
+    float: right;
+    width: 40%;
+}
+
+.footer-right ul{
+    text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a{
+    font-size: 30px;
+    margin-left:35px;
+    color: rgb(44, 36, 77);
+}
+.footer-right ul li a:hover{
+   
+}
